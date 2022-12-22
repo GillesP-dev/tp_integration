@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "playfairDisplay", "sans-serif";
+}
+
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: url(/font/PlayfairDisplay-Regular.ttf);
+}
+
+.fondimage {
+    position: relative;
+    background-image: url(/image/image1.png);
+    width: 100%;
+    height: 1195px;
+    overflow: hidden;
+    margin: auto;
+    z-index: 0;
+    top: 0;
+    left: 0;
+}
+
+/*------------------------nav*/
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.parnav {
+    margin-left: 250px;
+    margin-top: 48px;
+}
+
+.parnav p {
+    font-size: 36px;
+}
+
+.parnav p::after {
+    position: relative;
+    content: "\002022";
+    font-size: 26px;
+    color: #00c9e0;
+    bottom: -5px;
+}
+
+span {
+    color: #00c9e0;
+    font-size: 50px;
+}
+
+img {
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    margin-top: 95px;
+}
+
+.borddroit {
+    position: relative;
+}
+
+.barremenu {
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    top: 66%;
+    left: 43%;
+    background-color: white;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    width: 165px;
+    background-color: #00c9e0;
+    border-radius: 48px;
+    margin-right: 265px;
+    margin-top: 80px;
+}
+
+menu {
+    font-size: 30px;
+    padding: 0;
+    margin-top: 21px;
+}
+
+menu:hover {
+    color: #063e7e;
+    cursor: grab;
+}
+
+.text {
+    margin-top: 165px;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+    font-size: 120px;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.paragraphe {
+    display: flex;
+    height: 50px;
+    width: 500px;
+    flex-direction: row;
+    margin: auto;
+
+}
+
+.paragraphe p {
+    text-align: center;
+}
+
+/* ----------------------------------lien*/
+
+.lien {
+    display: flex;
+    position: relative;
+    width: 90%;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 200px;
+
+}
+
+.scroll {
+    position: absolute;
+    left: 240px;
+    transform: rotate(-90deg);
+    font-style: italic;
+    font-size: 15px;
+}
+
+.barreScroll {
+    position: absolute;
+    left: 260px;
+    top: 50px;
+    height: 80px;
+    width: 2px;
+    background-color: #00c9e0;
+}
+
+.facebook {
+    width: 11px;
+    height: 20px;
+}
+
+.twitter {
+    width: 22px;
+    height: 18px;
+    margin-top: 20px;
+    margin-right: 14px;
+}
+
+.insta2 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-right: 14px;
+}
+
+.insta1 {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    right: 0;
+    margin-top: 26px;
+}
+
+.bagroundlinear {
+    position: relative;
+    width: 100%;
+    height: 20%;
+    bottom: 0;
+    background:
+        linear-gradient(180deg, rgba(1, 22, 39, 0) 0%, #011627 76.64%, #011627 100%);
+}
+
+/*--------------------------2éme partie*/
+.container2 {
+    width: 100%;
+    height: 100%;
+    background-color: #011627;
+    margin-top: 0;
+}
+.titrepartie2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: left;
+}
+.container2 h2 {
+    font-weight: 700;
+    font-size: 72px;
+    margin-left: 11%;
+}
+.textpartie2 {
+    width: 447px;
+    height: 72px;
+    margin-left: 22px;
+    
+}
+.listepartie2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.listepartie2 div{
+    width: 14%;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    border-bottom: 2px solid #15595e;
+}
