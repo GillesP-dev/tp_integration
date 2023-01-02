@@ -13,6 +13,7 @@ body {
 .fondimage {
     position: relative;
     background-image: url(/image/image1.png);
+    background-size: cover;
     width: 100%;
     height: 1195px;
     overflow: hidden;
@@ -51,14 +52,26 @@ span {
     font-size: 50px;
 }
 
-img {
-    float: left;
-    height: 40px;
-    width: 40px;
-    margin-right: 20px;
-    margin-top: 95px;
+.borddroit .loupe1 {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border: 3px #fff solid;
+    border-radius: 50%;
+    top: 50%;
+    left: -25%;
+   
 }
-
+.borddroit .loupe2 {
+    position: absolute;
+    height: 3px;
+    width: 20px;
+   background-color: #fff;
+    top: 70%;
+    left: -19%;
+    transform: rotate(45deg);
+   
+}
 .borddroit {
     position: relative;
 }
@@ -68,7 +81,7 @@ img {
     height: 2px;
     width: 30px;
     top: 66%;
-    left: 43%;
+    left: 36%;
     background-color: white;
 }
 
@@ -82,10 +95,11 @@ img {
     border-radius: 48px;
     margin-right: 265px;
     margin-top: 80px;
+    font-size: 30px;
 }
 
 menu {
-    font-size: 30px;
+    
     padding: 0;
     margin-top: 21px;
 }
@@ -96,7 +110,7 @@ menu:hover {
 }
 
 .text {
-    margin-top: 165px;
+    margin-top: 164px;
 }
 
 h1 {
@@ -157,6 +171,7 @@ h2 {
 .facebook {
     width: 11px;
     height: 20px;
+    margin-right: 19px;
 }
 
 .twitter {
@@ -178,7 +193,7 @@ h2 {
     position: absolute;
     width: 8px;
     height: 8px;
-    right: 0;
+    right: 20px;
     margin-top: 26px;
 }
 
@@ -186,7 +201,7 @@ h2 {
     position: relative;
     width: 100%;
     height: 20%;
-    bottom: 0;
+    bottom: -50px;
     background:
         linear-gradient(180deg, rgba(1, 22, 39, 0) 0%, #011627 76.64%, #011627 100%);
 }
@@ -195,7 +210,7 @@ h2 {
 .container2 {
     width: 100%;
     height: 100%;
-    background-color: #011627;
+    background: #011627;
     margin-top: 0;
 }
 .titrepartie2 {
@@ -228,4 +243,103 @@ h2 {
     font-weight: 400;
     font-size: 18px;
     border-bottom: 2px solid #15595e;
+    padding-bottom: 32px;
+}
+div .liste1 {
+    border-bottom: 3px solid #00c9e0;
+    color: #00c9e0;
+}
+.container2 .dune{
+    width: 491px;
+    height: 633px;
+    border-radius: 8px;
+   
+  }
+.textCotéPhoto{
+    display: block;
+    position: relative;
+    top: -620px;
+    left: 883px;
+    height: 300px;
+    width: 581px;
+    margin-left: 89px;
+}
+.textCotéPhoto .titreDune {
+    margin-left: 0;
+}
+.imageDune {
+    position: relative;
+     width: 491px;
+    height: 633px;
+    margin-top: 180px;
+    margin-left: 376px; 
+
+}
+.carre {
+    position: relative;
+    height: 65px;
+    width: 65px;
+    background-color: black;
+   
+}
+.carre1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.carre2 {
+    position: absolute;
+    bottom: 0;
+    right: 66px;
+    border-radius: 8px 0 0 0;
+}
+.imageDune .fleche-droite{
+    position: absolute;
+    top: 21px;
+    left: 23px;
+    height: 20px;
+    width: 20px;
+    border-top: 2px #fff solid;
+    border-right: 2px #fff solid;
+    transform: rotate(-135deg);
+}
+.imageDune .fleche-gauche{
+    position: absolute;
+    top: 21px;
+    right: 23px;
+    height: 20px;
+    width: 20px;
+    border-top: 2px #fff solid;
+    border-right: 2px #fff solid;
+    transform: rotate(45deg);
+}
+.imageDune .ligne{
+    position: absolute;
+    top: 31px;
+    background-color: #fff;
+    height: 2px;
+    width: 25px;
+}
+.imageDune .ligne-gauche{
+   right: 23px; 
+}
+.imageDune .ligne-droite{
+    left: 23px; 
+ }
+ .offres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    width: 300px;
+    background-color: #00c9e0;
+    border-radius: 48px;
+    margin-top: 10%;   
+}
+.offres .barreOffre{
+    position: absolute;
+    height: 2px;
+    width: 25px;
+    background-color: #fff;
+    right: 270px;
 }
